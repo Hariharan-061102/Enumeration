@@ -1,6 +1,3 @@
-# Enumeration
-Enumeration Techniques
-
 # Explore Google hacking and enumeration 
 
 # AIM:
@@ -33,27 +30,33 @@ Google hacking, also known as Google dorking, is a technique that involves using
 site: This operator allows you to search for pages that are within a specific website or domain. For example, "site:example.com" would search for pages that are on the example.com domain.
 Following searches for all the sites that is in the domain yahoo.com
 
+![image](https://github.com/Hariharan-061102/Enumeration/assets/93427270/924942f8-3bac-4d7f-9e66-25a216c781a0)
+
 filetype: This operator allows you to search for files of a specific type. For example, "filetype:pdf" would search for all PDF files.
 Following searches for pdf file in the domain yahoo.com
 
-
+![image](https://github.com/Hariharan-061102/Enumeration/assets/93427270/94d5a3c3-752b-4e44-a5c1-279e60c58c12)
 
 intext: This operator allows you to search for pages that contain specific text within the body of the page. For example, "intext:password" would search for pages that contain the word "password" within the body of the page.
-
+![image](https://github.com/Hariharan-061102/Enumeration/assets/93427270/23452fa1-e224-4202-b948-555904b41c97)
 
 inurl: This operator allows you to search for pages that contain specific text within the URL. For example, "inurl:admin" would search for pages that contain the word "admin" within the URL.
+![image](https://github.com/Hariharan-061102/Enumeration/assets/93427270/ec397d49-2e9e-4819-9f7f-9e19bfc5975f)
 
 intitle: This operator allows you to search for pages that contain specific text within the title tag. For example, "intitle:index of" would search for pages that contain "index of" within the title tag.
+![image](https://github.com/Hariharan-061102/Enumeration/assets/93427270/d2f2d985-edaa-4602-867f-f43b8be7deb5)
 
 link: This operator allows you to search for pages that link to a specific URL. For example, "link:example.com" would search for pages that link to the example.com domain.
+![image](https://github.com/Hariharan-061102/Enumeration/assets/93427270/4541325a-afa8-4246-98b9-6c4a96ae1fa3)
 
 cache: This operator allows you to view the cached version of a page. For example, "cache:example.com" would show the cached version of the example.com website.
+![image](https://github.com/Hariharan-061102/Enumeration/assets/93427270/55597f22-dd3f-4e6d-99b0-4e884a7f159d)
 
  
-#DNS Enumeration
+## DNS Enumeration
 
 
-##DNS Recon
+### DNS Recon
 provides the ability to perform:
 Check all NS records for zone transfers
 Enumerate general DNS records for a given domain (MX, SOA, NS, A, AAAA, SPF , TXT)
@@ -67,7 +70,7 @@ Top level domain expansion
 
 
 
-##dnsenum
+### dnsenum
 Dnsenum is a multithreaded perl script to enumerate DNS information of a domain and to discover non-contiguous ip blocks. The main purpose of Dnsenum is to gather as much information as possible about a domain. The program currently performs the following operations:
 
 Get the host’s addresses (A record).
@@ -82,7 +85,7 @@ Write to domain_ips.txt file ip-blocks.
 This program is useful for pentesters, ethical hackers and forensics experts. It also can be used for security tests.
 
 
-##smtp-user-enum
+## smtp-user-enum
 Username guessing tool primarily for use against the default Solaris SMTP service. Can use either EXPN, VRFY or RCPT TO.
 
 
@@ -91,23 +94,20 @@ In metasploit list all the usernames using head /etc/passwd or cat /etc/passwd:
 select any username in the first column of the above file and check the same
 
 
-#Telnet for smtp enumeration
+## Telnet for smtp enumeration
 Telnet allows to connect to remote host based on the port no. For smtp port no is 25
 telnet <host address> 25 to connect
 and issue appropriate commands
-  
- ##Output
-  
-  
 
-## nmap –script smtp-enum-users.nse <hostname>
-
+```
+nmap –script smtp-enum-users.nse <hostname>
+```
 The smtp-enum-users.nse script attempts to enumerate the users on a SMTP server by issuing the VRFY, EXPN or RCPT TO commands. The goal of this script is to discover all the user accounts in the remote system.
+
 
 
 ## OUTPUT:
 
 
 ## RESULT:
-The Google hacking keywords and enumeration tools were identified and executed successfully
-
+The kali linux tools were identified successfully
