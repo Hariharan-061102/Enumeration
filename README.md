@@ -101,6 +101,7 @@ select any username in the first column of the above file and check the same
 Telnet allows to connect to remote host based on the port no. For smtp port no is 25
 telnet <host address> 25 to connect
 and issue appropriate commands
+
 ![image](https://github.com/Hariharan-061102/Enumeration/assets/93427270/180b44ca-5324-4ede-94d7-cec1de342ee9)
 
 
