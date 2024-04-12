@@ -62,11 +62,9 @@ Check all NS records for zone transfers
 Enumerate general DNS records for a given domain (MX, SOA, NS, A, AAAA, SPF , TXT)
 Perform common SRV Record Enumeration
 Top level domain expansion
+
 ## OUTPUT:
-
-
-
-
+![image](https://github.com/Hariharan-061102/Enumeration/assets/93427270/915eddf7-336b-4f0c-983c-220cf4d898fc)
 
 
 
@@ -84,14 +82,19 @@ Perform reverse lookups on netranges (C class or/and whois netranges) (threaded)
 Write to domain_ips.txt file ip-blocks.
 This program is useful for pentesters, ethical hackers and forensics experts. It also can be used for security tests.
 
+![image](https://github.com/Hariharan-061102/Enumeration/assets/93427270/b4b2eefe-41f4-4a31-8054-5f2f59abe6cf)
+
 
 ## smtp-user-enum
 Username guessing tool primarily for use against the default Solaris SMTP service. Can use either EXPN, VRFY or RCPT TO.
+![image](https://github.com/Hariharan-061102/Enumeration/assets/93427270/73dbf24d-0da9-4063-9a4b-0f8dc3b8e5da)
 
 
 In metasploit list all the usernames using head /etc/passwd or cat /etc/passwd:
+![image](https://github.com/Hariharan-061102/Enumeration/assets/93427270/0d24fa55-e177-4b1f-9cbc-7056af4a311a)
 
 select any username in the first column of the above file and check the same
+![image](https://github.com/Hariharan-061102/Enumeration/assets/93427270/1ba38355-f6f0-47c0-b6c5-0471bbdfa536)
 
 
 ## Telnet for smtp enumeration
@@ -104,9 +107,7 @@ nmap –script smtp-enum-users.nse <hostname>
 ```
 The smtp-enum-users.nse script attempts to enumerate the users on a SMTP server by issuing the VRFY, EXPN or RCPT TO commands. The goal of this script is to discover all the user accounts in the remote system.
 
-
-
-## OUTPUT:
+![image](https://github.com/Hariharan-061102/Enumeration/assets/93427270/7e50ce53-0504-47c5-a673-9d5b9a35a8b3)
 
 
 ## RESULT:
